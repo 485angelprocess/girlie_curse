@@ -24,8 +24,8 @@ div{
 }
 
 .entry{
-	float:left;	
 	width: 256px;
+	height: 512px;
 	font-size: 3em;	
 }
 
@@ -42,6 +42,18 @@ div{
 	color: #000000;	
 }
 
+#mainlinks{
+	display: grid;
+	  grid-auto-flow: column;
+	  justify-items: center;
+  align-items: center;
+}
+
+#otherlinks{
+	color: black;
+	background: #FFEEEE;	
+	font-size: 2em;
+}
 
 
 img{
