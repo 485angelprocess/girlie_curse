@@ -1,0 +1,50 @@
+@font-face{
+	font-family: "unscii";
+	/* http://viznut.fi/unscii/ */
+	src:url("font/unscii-16.woff") format('woff');
+}
+
+body{
+	color: #FFFFFF;
+	background-color: #3a0233;
+	background: url("resources/bg.gif") repeat 0;
+	font-family: "unscii";
+}
+
+div{
+	border: solid;
+	border-color: #FFFFFF;
+	margin: 1em;
+	padding: 1em;
+}
+
+#body{
+	font-size: 2em;		
+}
+
+.entry{
+	float:left;	
+	width: 256px;
+	font-size: 3em;	
+	margin: 2em;
+}
+
+a:visited {
+  color: pink;
+}
+
+.entry:hover {
+    background-color: yellow;
+    
+}
+
+.entry:hover a{
+	color: #000000;	
+}
+
+
+
+img{
+	width: 256px;
+	height: 256px;
+}
