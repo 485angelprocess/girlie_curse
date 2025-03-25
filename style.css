@@ -33,6 +33,10 @@ a:visited {
   color: pink;
 }
 
+.entry{
+	background: #c9b112;	
+}
+
 .entry:hover {
     background-color: yellow;
     
